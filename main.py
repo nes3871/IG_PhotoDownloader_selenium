@@ -24,8 +24,8 @@ login = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]')
 
 username.clear()
 password.clear()
-username.send_keys('nes3871')
-password.send_keys('chmode6789')
+username.send_keys('yourusername')
+password.send_keys('yourpassword')
 login.click()
 
 # 等待搜尋欄位出現
